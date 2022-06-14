@@ -1,4 +1,4 @@
-namespace GhibliAPI.Models
+,namespace GhibliAPI.Models
 {
   public class Work
   {

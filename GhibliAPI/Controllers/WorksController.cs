@@ -92,7 +92,7 @@ namespace GhibliAPI.Controllers
             _context.Works.Add(work);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetWork", new { id = work.Id }, work);
+            return CreatedAtAction(nameof(GetTodoItem), new { id = work.Id }, work);
         }
 
         // DELETE: api/Works/5
